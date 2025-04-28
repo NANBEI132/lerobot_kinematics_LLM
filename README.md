@@ -1,0 +1,2 @@
+# lerobot_kinematics_LLM
+with HEZIQIAO USE SPEECH  AND LLM CONTROL SO100
