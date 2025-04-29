@@ -12,13 +12,12 @@ import numpy as np
 
 # 百炼API配置
 # 设置代理（如果需要）
-transport = SyncProxyTransport.from_url('socks5://127.0.0.1:7890')
-client = httpx.Client(transport=transport)
+transport = SyncProxyTransp
 
 openai_client = openai.OpenAI(
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
-    api_key=os.getenv("DASHSCOPE_API_KEY"),
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    api_key=os
+    base_url="
     http_client=client
 )
 
